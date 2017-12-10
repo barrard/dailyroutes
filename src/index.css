@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #fffeee;
+}
+select, option{
+	background: transparent;
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+.inline{
+	display: inline-block;
+}
+.nav > li >a:hover{
+	color: #fff;
+	text-shadow: 0px 0px 12px black;
+	/*text-shadow: 3px -3px 22px rgba(100, 100, 100, 0.5), -3px -3px 3px rgba(111, 111, 111, 0.5);*/
+}
+.nav > li{
+	transition: all 0.3s ease;
+}
+.activeTab{
+	transform: scale(1.1);
+	box-shadow: 0px -10px 20px -8px rgba(100, 100, 100, 0.5), 0px 10px 15px -8px rgba(111, 111, 111, 0.5);
+	/*box-shadow: 10px 10px 10px rgba(111, 111, 111, 0.5);*/
+}
+
+.red{
+	color:red;
+}
+.blue{
+	color:blue;
+}
+.clickable-icon{
+	display: block;
+}
+.buffer > *{
+	margin:5px;
+}
+/*.vertCenter{
+	margin-top: auto;
+	margin-bottom: auto;
+}*/
+.table td, th{
+   text-align: center;   
+}
+.tectCenter{
+	text-align:center
+}
+td > .clickable-icon:hover{
+	background-color: green;
+
+}
+th{
+	color:white;
+	background: #000;
+}
+tr:nth-child(odd){
+	background: rgba(111, 111, 111, 0.5);
+}
